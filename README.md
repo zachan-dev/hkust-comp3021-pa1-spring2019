@@ -8,6 +8,10 @@ Deadline: 11:55 PM, 16 April 2019
 ## UML Diagram
 ![UML diagram of PA1 Civilization](MySourceCode.png)
 
+The UML diagram is automatically generated using command `tags2uml` (author: @ruben2020)
+
+Link to his Github project: https://github.com/ruben2020/tags2uml
+
 ## Notes
 > This is an individual assignment; all the work must be your own.
 >
