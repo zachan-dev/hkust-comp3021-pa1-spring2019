@@ -1,5 +1,7 @@
 # HKUST COMP3021 Java Programming 
 
+JavaDoc link: https://zach1king.github.io/hkust-comp3021-pa1-spring2019/overview-summary.html
+
 ## Spring 2019 Programming Assignment #1 (Civilization – ASCII mode)
 Deadline: 11:55 PM, 16 April 2019
 
