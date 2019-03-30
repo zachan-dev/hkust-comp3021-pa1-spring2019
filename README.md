@@ -5,6 +5,9 @@ JavaDoc link: https://zach1king.github.io/hkust-comp3021-pa1-spring2019/overview
 ## Spring 2019 Programming Assignment #1 (Civilization – ASCII mode)
 Deadline: 11:55 PM, 16 April 2019
 
+## UML Diagram
+![UML diagram of PA1 Civilization](MySourceCode.png)
+
 ## Notes
 > This is an individual assignment; all the work must be your own.
 >
