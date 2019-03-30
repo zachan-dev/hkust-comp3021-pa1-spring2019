@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"pa1"},{"l":"pa1.exceptions"},{"l":"pa1.ministers"},{"l":"pa1.technologies"}]
