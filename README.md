@@ -12,6 +12,9 @@ The UML diagram is automatically generated using command `tags2uml` (author: @ru
 
 Link to his Github project: https://github.com/ruben2020/tags2uml
 
+<embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://github.com/zach1king/hkust-comp3021-pa1-spring2019/raw/master/PA1%20UML.pdf" width="500" height="375">
+
+
 ## Notes
 > This is an individual assignment; all the work must be your own.
 >
