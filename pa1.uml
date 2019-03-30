@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pa1</OriginalElement>
+  <nodes>
+    <node x="612.6267179054107" y="766.5">pa1.technologies.ManufacturingTech</node>
+    <node x="1050.441963781166" y="2507.0">pa1.ministers.Scientist</node>
+    <node x="1124.7656067942996" y="1934.0">pa1.ministers.Minister</node>
+    <node x="1083.6267179054107" y="1194.0">pa1.Player</node>
+    <node x="1273.2884812683096" y="3166.0">pa1.GameEngine</node>
+    <node x="416.6267179054107" y="766.5">pa1.technologies.WarTech</node>
+    <node x="1610.0741955540238" y="1691.0">pa1.exceptions.TooPoorException</node>
+    <node x="1159.5176268281361" y="283.0">pa1.technologies.Technology</node>
+    <node x="583.5" y="2496.5">pa1.ministers.WarGeneral</node>
+    <node x="200.65752888735733" y="2507.0">pa1.Cell</node>
+    <node x="1621.3767179054107" y="2496.0">pa1.ministers.Economist</node>
+    <node x="101.62671790541071" y="535.0">pa1.City</node>
+    <node x="856.6267179054107" y="2757.0">pa1.GameMap</node>
+    <node x="1383.6267179054107" y="766.5">pa1.technologies.TradingTech</node>
+    <node x="1240.847983970993" y="0.0">pa1.Cost</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pa1.GameMap" target="pa1.ministers.Minister">
+      <point x="106.15384615384619" y="-169.5" />
+      <point x="1135.280564059257" y="2717.0" />
+      <point x="1365.0156067942996" y="2717.0" />
+      <point x="1365.0156067942996" y="2476.0" />
+      <point x="1308.7656067942996" y="2476.0" />
+      <point x="0.0" y="236.0" />
+    </edge>
+    <edge source="pa1.ministers.WarGeneral" target="pa1.Player">
+      <point x="23.0" y="-70.0" />
+      <point x="790.5" y="2436.0" />
+      <point x="840.1267179054107" y="2436.0" />
+      <point x="840.1267179054107" y="1641.0" />
+      <point x="1097.5767179054108" y="1641.0" />
+      <point x="-125.54999999999995" y="213.5" />
+    </edge>
+    <edge source="pa1.ministers.Scientist" target="pa1.City">
+      <point x="-82.66666666666674" y="-59.5" />
+      <point x="1091.7752971144992" y="2446.0" />
+      <point x="1044.451101560475" y="2446.0" />
+      <point x="1044.451101560475" y="1174.0" />
+      <point x="249.12671790541071" y="1174.0" />
+      <point x="0.0" y="279.5" />
+    </edge>
+    <edge source="pa1.Player" target="pa1.technologies.WarTech">
+      <point x="-39.85714285714289" y="-213.5" />
+      <point x="1183.2695750482678" y="1134.0" />
+      <point x="504.6267179054107" y="1134.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="pa1.technologies.Technology" target="pa1.Cost">
+      <point x="0.0" y="-81.0" />
+      <point x="1262.5176268281361" y="263.0" />
+      <point x="1369.2924284154376" y="263.0" />
+      <point x="-7.555555555555429" y="81.5" />
+    </edge>
+    <edge source="pa1.ministers.Economist" target="pa1.exceptions.TooPoorException">
+      <point x="0.0" y="-70.5" />
+      <point x="1764.3767179054107" y="2476.0" />
+      <point x="1778.8241955540238" y="2476.0" />
+      <point x="33.75" y="81.5" />
+    </edge>
+    <edge source="pa1.technologies.WarTech" target="pa1.Cost">
+      <point x="-66.0" y="-48.0" />
+      <point x="439.5" y="223.0" />
+      <point x="1308.847983970993" y="223.0" />
+      <point x="-68.0" y="81.5" />
+    </edge>
+    <edge source="pa1.ministers.Minister" target="pa1.technologies.Technology">
+      <point x="23.0" y="-236.0" />
+      <point x="1331.7656067942996" y="1874.0" />
+      <point x="1373.1267179054107" y="1874.0" />
+      <point x="1373.1267179054107" y="515.0" />
+      <point x="1299.9721722826816" y="515.0" />
+      <point x="37.454545454545496" y="81.0" />
+    </edge>
+    <edge source="pa1.ministers.WarGeneral" target="pa1.exceptions.TooPoorException">
+      <point x="69.0" y="-70.0" />
+      <point x="836.5" y="2446.0" />
+      <point x="914.6919637811659" y="2446.0" />
+      <point x="914.6919637811659" y="1904.0" />
+      <point x="1643.8241955540238" y="1904.0" />
+      <point x="-101.25" y="81.5" />
+    </edge>
+    <edge source="pa1.ministers.Economist" target="pa1.Cost">
+      <point x="122.57142857142856" y="-70.5" />
+      <point x="1886.9481464768392" y="2476.0" />
+      <point x="1934.5741955540238" y="2476.0" />
+      <point x="1934.5741955540238" y="193.0" />
+      <point x="1490.1813173043265" y="193.0" />
+      <point x="113.33333333333348" y="81.5" />
+    </edge>
+    <edge source="pa1.technologies.TradingTech" target="pa1.Cost">
+      <point x="21.125" y="-48.0" />
+      <point x="1489.2517179054107" y="263.0" />
+      <point x="1384.4035395265487" y="263.0" />
+      <point x="7.555555555555657" y="81.5" />
+    </edge>
+    <edge source="pa1.GameMap" target="pa1.ministers.Scientist">
+      <point x="79.61538461538453" y="-169.5" />
+      <point x="1108.7421025207952" y="2707.0" />
+      <point x="1174.441963781166" y="2707.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="pa1.ministers.WarGeneral" target="pa1.ministers.Minister">
+      <point x="115.0" y="-70.0" />
+      <point x="882.5" y="2456.0" />
+      <point x="1145.210051238744" y="2456.0" />
+      <point x="-163.55555555555554" y="236.0" />
+    </edge>
+    <edge source="pa1.GameEngine" target="pa1.technologies.Technology">
+      <point x="183.74999999999994" y="-191.5" />
+      <point x="1751.0384812683096" y="3136.0" />
+      <point x="1977.5384812683096" y="3136.0" />
+      <point x="1977.5384812683096" y="485.0" />
+      <point x="1356.1539904644997" y="485.0" />
+      <point x="93.63636363636351" y="81.0" />
+    </edge>
+    <edge source="pa1.ministers.Minister" target="pa1.exceptions.TooPoorException">
+      <point x="161.0" y="-236.0" />
+      <point x="1469.7656067942996" y="1914.0" />
+      <point x="1711.3241955540238" y="1914.0" />
+      <point x="-33.75" y="81.5" />
+    </edge>
+    <edge source="pa1.Player" target="pa1.technologies.TradingTech">
+      <point x="119.57142857142844" y="-213.5" />
+      <point x="1342.6981464768392" y="1174.0" />
+      <point x="1468.1267179054107" y="1174.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="pa1.Player" target="pa1.City">
+      <point x="-79.71428571428578" y="-213.5" />
+      <point x="1143.412432191125" y="1144.0" />
+      <point x="347.460051238744" y="1144.0" />
+      <point x="98.33333333333326" y="279.5" />
+    </edge>
+    <edge source="pa1.GameMap" target="pa1.ministers.Economist">
+      <point x="159.23076923076928" y="-169.5" />
+      <point x="1188.35748713618" y="2737.0" />
+      <point x="1764.3767179054107" y="2737.0" />
+      <point x="0.0" y="70.5" />
+    </edge>
+    <edge source="pa1.ministers.WarGeneral" target="pa1.Cost">
+      <point x="-161.0" y="-70.0" />
+      <point x="606.5" y="2476.0" />
+      <point x="80.12671790541049" y="2476.0" />
+      <point x="80.12671790541049" y="183.0" />
+      <point x="1248.4035395265487" y="183.0" />
+      <point x="-128.44444444444434" y="81.5" />
+    </edge>
+    <edge source="pa1.Player" target="pa1.technologies.ManufacturingTech">
+      <point x="0.0" y="-213.5" />
+      <point x="1223.1267179054107" y="1124.0" />
+      <point x="715.6267179054107" y="1124.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="pa1.ministers.Economist" target="pa1.ministers.Minister">
+      <point x="-81.71428571428572" y="-70.5" />
+      <point x="1682.662432191125" y="2466.0" />
+      <point x="1472.321162349855" y="2466.0" />
+      <point x="163.55555555555554" y="236.0" />
+    </edge>
+    <edge source="pa1.City" target="pa1.Cost">
+      <point x="73.75" y="-279.5" />
+      <point x="322.8767179054107" y="515.0" />
+      <point x="286.0652458757552" y="515.0" />
+      <point x="286.0652458757552" y="213.0" />
+      <point x="1293.736872859882" y="213.0" />
+      <point x="-83.11111111111109" y="81.5" />
+    </edge>
+    <edge source="pa1.GameMap" target="pa1.Player">
+      <point x="26.538461538461434" y="-169.5" />
+      <point x="1055.6651794438721" y="2667.0" />
+      <point x="1002.0344348938085" y="2667.0" />
+      <point x="1002.0344348938085" y="1661.0" />
+      <point x="1153.3767179054107" y="1661.0" />
+      <point x="-69.75" y="213.5" />
+    </edge>
+    <edge source="pa1.GameEngine" target="pa1.GameMap">
+      <point x="-110.25" y="-191.5" />
+      <point x="1457.0384812683096" y="3126.0" />
+      <point x="1115.3767179054107" y="3126.0" />
+      <point x="86.25" y="169.5" />
+    </edge>
+    <edge source="pa1.GameEngine" target="pa1.City">
+      <point x="-257.25" y="-191.5" />
+      <point x="1310.0384812683096" y="3146.0" />
+      <point x="15.0" y="3146.0" />
+      <point x="15.0" y="1154.0" />
+      <point x="118.01560679429963" y="1154.0" />
+      <point x="-131.1111111111111" y="279.5" />
+    </edge>
+    <edge source="pa1.ministers.Economist" target="pa1.City">
+      <point x="40.85714285714289" y="-70.5" />
+      <point x="1805.2338607625536" y="2456.0" />
+      <point x="1890.5741955540238" y="2456.0" />
+      <point x="1890.5741955540238" y="1114.0" />
+      <point x="380.2378290165218" y="1114.0" />
+      <point x="131.1111111111111" y="279.5" />
+    </edge>
+    <edge source="pa1.GameEngine" target="pa1.Player">
+      <point x="110.24999999999994" y="-191.5" />
+      <point x="1677.5384812683096" y="3126.0" />
+      <point x="1966.5384812683096" y="3126.0" />
+      <point x="1966.5384812683096" y="1651.0" />
+      <point x="1348.6767179054107" y="1651.0" />
+      <point x="125.54999999999995" y="213.5" />
+    </edge>
+    <edge source="pa1.exceptions.TooPoorException" target="pa1.Cost">
+      <point x="90.0" y="-81.5" />
+      <point x="1835.0741955540238" y="1671.0" />
+      <point x="1912.5741955540238" y="1671.0" />
+      <point x="1912.5741955540238" y="213.0" />
+      <point x="1459.959095082104" y="213.0" />
+      <point x="83.11111111111109" y="81.5" />
+    </edge>
+    <edge source="pa1.GameEngine" target="pa1.Cost">
+      <point x="257.24999999999994" y="-191.5" />
+      <point x="1824.5384812683096" y="3146.0" />
+      <point x="1988.5384812683096" y="3146.0" />
+      <point x="1988.5384812683096" y="183.0" />
+      <point x="1505.2924284154376" y="183.0" />
+      <point x="128.44444444444457" y="81.5" />
+    </edge>
+    <edge source="pa1.GameMap" target="pa1.Cell">
+      <point x="-106.15384615384619" y="-169.5" />
+      <point x="922.9728717515645" y="2717.0" />
+      <point x="235.82419555402407" y="2717.0" />
+      <point x="-70.33333333333326" y="59.5" />
+    </edge>
+    <edge source="pa1.ministers.Scientist" target="pa1.ministers.Minister">
+      <point x="82.66666666666674" y="-59.5" />
+      <point x="1257.1086304478326" y="2476.0" />
+      <point x="1267.8767179054107" y="2476.0" />
+      <point x="-40.888888888888914" y="236.0" />
+    </edge>
+    <edge source="pa1.ministers.WarGeneral" target="pa1.technologies.Technology">
+      <point x="-23.0" y="-70.0" />
+      <point x="744.5" y="2426.0" />
+      <point x="829.1267179054107" y="2426.0" />
+      <point x="829.1267179054107" y="515.0" />
+      <point x="1243.7903541008634" y="515.0" />
+      <point x="-18.727272727272748" y="81.0" />
+    </edge>
+    <edge source="pa1.Player" target="pa1.technologies.Technology">
+      <point x="39.85714285714289" y="-213.5" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="pa1.ministers.WarGeneral" target="pa1.City">
+      <point x="-69.0" y="-70.0" />
+      <point x="698.5" y="2456.0" />
+      <point x="222.80307489227698" y="2456.0" />
+      <point x="222.80307489227698" y="1174.0" />
+      <point x="216.3489401276329" y="1174.0" />
+      <point x="-32.77777777777783" y="279.5" />
+    </edge>
+    <edge source="pa1.technologies.ManufacturingTech" target="pa1.Cost">
+      <point x="-77.25" y="-48.0" />
+      <point x="638.3767179054107" y="465.0" />
+      <point x="646.75" y="465.0" />
+      <point x="646.75" y="243.0" />
+      <point x="1339.0702061932152" y="243.0" />
+      <point x="-37.77777777777783" y="81.5" />
+    </edge>
+    <edge source="pa1.GameMap" target="pa1.City">
+      <point x="-132.69230769230774" y="-169.5" />
+      <point x="896.4344102131029" y="2727.0" />
+      <point x="37.0" y="2727.0" />
+      <point x="37.0" y="1174.0" />
+      <point x="183.57116234985506" y="1174.0" />
+      <point x="-65.55555555555566" y="279.5" />
+    </edge>
+    <edge source="pa1.ministers.Minister" target="pa1.Cost">
+      <point x="115.0" y="-236.0" />
+      <point x="1423.7656067942996" y="1894.0" />
+      <point x="1574.1267179054107" y="1894.0" />
+      <point x="1574.1267179054107" y="233.0" />
+      <point x="1429.736872859882" y="233.0" />
+      <point x="52.888888888888914" y="81.5" />
+    </edge>
+    <edge source="pa1.technologies.TradingTech" target="pa1.technologies.Technology">
+      <point x="-63.375" y="-48.0" />
+      <point x="1404.7517179054107" y="505.0" />
+      <point x="1318.6994450099544" y="505.0" />
+      <point x="56.181818181818244" y="81.0" />
+    </edge>
+    <edge source="pa1.ministers.Minister" target="pa1.Player">
+      <point x="-23.0" y="-236.0" />
+      <point x="1285.7656067942996" y="1894.0" />
+      <point x="1269.6058526700547" y="1894.0" />
+      <point x="1269.6058526700547" y="1671.0" />
+      <point x="1264.9767179054106" y="1671.0" />
+      <point x="41.84999999999991" y="213.5" />
+    </edge>
+    <edge source="pa1.ministers.Minister" target="pa1.GameMap">
+      <point x="40.888888888888914" y="236.0" />
+      <point x="1349.6544956831885" y="2466.0" />
+      <point x="1376.0156067942996" y="2466.0" />
+      <point x="1376.0156067942996" y="2727.0" />
+      <point x="1161.8190255977183" y="2727.0" />
+      <point x="132.69230769230762" y="-169.5" />
+    </edge>
+    <edge source="pa1.technologies.ManufacturingTech" target="pa1.technologies.Technology">
+      <point x="25.75" y="-48.0" />
+      <point x="741.3767179054107" y="495.0" />
+      <point x="1206.335808646318" y="495.0" />
+      <point x="-56.181818181818244" y="81.0" />
+    </edge>
+    <edge source="pa1.GameEngine" target="pa1.ministers.Minister">
+      <point x="-36.75" y="-191.5" />
+      <point x="1530.5384812683096" y="3116.0" />
+      <point x="1387.0156067942996" y="3116.0" />
+      <point x="1387.0156067942996" y="2476.0" />
+      <point x="1390.5433845720775" y="2476.0" />
+      <point x="81.77777777777783" y="236.0" />
+    </edge>
+    <edge source="pa1.GameMap" target="pa1.ministers.WarGeneral">
+      <point x="-26.538461538461434" y="-169.5" />
+      <point x="1002.5882563669493" y="2687.0" />
+      <point x="767.5" y="2687.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="pa1.ministers.Economist" target="pa1.Player">
+      <point x="-40.85714285714289" y="-70.5" />
+      <point x="1723.5195750482678" y="2456.0" />
+      <point x="1599.5741955540238" y="2456.0" />
+      <point x="1599.5741955540238" y="1671.0" />
+      <point x="1292.8767179054107" y="1671.0" />
+      <point x="69.75" y="213.5" />
+    </edge>
+    <edge source="pa1.GameEngine" target="pa1.exceptions.TooPoorException">
+      <point x="36.75" y="-191.5" />
+      <point x="1604.0384812683096" y="3116.0" />
+      <point x="1955.5384812683096" y="3116.0" />
+      <point x="1955.5384812683096" y="1914.0" />
+      <point x="1846.3241955540238" y="1914.0" />
+      <point x="101.25" y="81.5" />
+    </edge>
+    <edge source="pa1.exceptions.TooPoorException" target="pa1.Player">
+      <point x="-90.0" y="-81.5" />
+      <point x="1655.0741955540238" y="1661.0" />
+      <point x="1320.7767179054108" y="1661.0" />
+      <point x="97.65000000000009" y="213.5" />
+    </edge>
+    <edge source="pa1.Player" target="pa1.ministers.Minister">
+      <point x="13.950000000000045" y="213.5" />
+      <point x="1237.0767179054105" y="1894.0" />
+      <point x="1239.7656067942996" y="1894.0" />
+      <point x="-69.0" y="-236.0" />
+    </edge>
+    <edge source="pa1.ministers.Minister" target="pa1.City">
+      <point x="-161.0" y="-236.0" />
+      <point x="1147.7656067942996" y="1894.0" />
+      <point x="1073.1267179054107" y="1894.0" />
+      <point x="1073.1267179054107" y="1164.0" />
+      <point x="281.90449568318854" y="1164.0" />
+      <point x="32.77777777777783" y="279.5" />
+    </edge>
+    <edge source="pa1.technologies.WarTech" target="pa1.technologies.Technology">
+      <point x="22.0" y="-48.0" />
+      <point x="526.6267179054107" y="475.0" />
+      <point x="1168.8812631917726" y="475.0" />
+      <point x="-93.63636363636351" y="81.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6519258202567759" x="926.5000000000002" y="657.2242888402627" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
