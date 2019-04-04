@@ -132,7 +132,7 @@ public class GameEngine {
     private void selectAndPerformAction(Player player, Minister minister, City city) {
 
         Cost bankCost = city.getBankCost().getDiscountedCost(minister.getImprovementDiscountRate());
-        Cost roadCost = city.getBankCost().getDiscountedCost(minister.getImprovementDiscountRate());
+        Cost roadCost = city.getRoadCost().getDiscountedCost(minister.getImprovementDiscountRate());
         Cost uniCost = city.getUniversityCost().getDiscountedCost(minister.getImprovementDiscountRate());
 
         System.out.println("SELECT MINISTER ACTION");

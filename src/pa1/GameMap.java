@@ -90,6 +90,7 @@ public class GameMap {
                     case "Economist": mis = new Economist(sc.nextInt(), sc.nextInt(), sc.nextInt()); break;
                     case "Scientist": mis = new Scientist(sc.nextInt(), sc.nextInt(), sc.nextInt()); break;
                     case "WarGeneral": mis = new WarGeneral(sc.nextInt(), sc.nextInt(), sc.nextInt()); break;
+                    default: throw new IOException("Invalid Minister Type: " + type);
                 }
                 if (mis != null) player.getMinisters().add(mis);
             }
