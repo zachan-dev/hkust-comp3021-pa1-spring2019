@@ -16,9 +16,9 @@ public class City {
     private int cropYields;
 
     // Improvements
-    private int banks = 1;
-    private int roads = 1;
-    private int universities = 1;
+    private int banks = 0;
+    private int roads = 0;
+    private int universities = 0;
 
 
     public City(int id, String name, int population, int troops, int cropYields) {
